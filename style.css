@@ -1,0 +1,198 @@
+* {
+    margin: 0px;
+    /* padding: 0px; */
+}
+    
+
+
+.top-box {
+    background-color: rgba(164, 81, 241, 0.828);
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.navigation-bar {
+    /* border: 5px solid white; */
+    width: 700px;
+    height: 50px;
+}
+
+.navigation-bar a {
+    text-decoration: none;
+    color: whitesmoke;
+  padding-left: 30px;
+}
+
+.navigation-bar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-bar ul li {
+    color: white;
+    font-size: 20px;
+list-style-type: none;
+}
+
+.top-box h1 {
+    color: white;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about {
+    height: 500px;
+    background-color: black;
+}
+
+.about h2 {
+    color: white;
+    text-align: center;
+    padding: 24px;
+    text-decoration: underline;
+}
+
+
+.about-row {
+     /* border: 5px solid white;  */
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.about-col {
+    /* border: 2px solid red; */
+    width: 45%;
+    height: 95%;
+}
+
+.about-col img {
+    height: 45%;
+}
+
+.about-col p {
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.project {
+    height: auto;
+    background-color: rgba(109, 136, 131, 0.728);
+    padding: 30px;
+}
+
+.project h2 {
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+.project ul li {
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-left: 20px; 
+    font-family: monospace;   
+}
+
+.achievements {
+    background-color: black;
+    height: auto;
+    color: white;
+    padding: 30px;
+}
+
+.achievements h2 {
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline;
+    color: whitesmoke
+}
+
+.achievements ul li {
+   margin-top: 10px;
+   font-size: 18px;
+}
+
+.achievements ul {
+    margin-top: 20px;
+}
+
+.contact {
+    height: auto;
+    background-color: grey;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 55px;
+    text-decoration: underline;
+    padding-top: 15px;
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contact-form {
+    background-color: black;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 14px;
+    padding: 40px;
+}
+
+.contact-form p {
+    color: white;
+    padding: 10px 8px;
+}
+
+.contact-form label {
+    font-size: 20px;
+}
+
+.contact-form input {
+    padding: 10px 60px;
+    border-radius: 12px; 
+}
+
+.submit-btn {
+    margin-left: 120px;
+    background-color: rgba(157, 229, 50, 0.921);
+    font-size: 13px;
+   
+}
+
+.social-media {
+    background-color: blueviolet;
+    padding: 15px;
+}
+
+.social-media table {
+    color: white;
+}
+
+.social-media table td {
+    padding: 0px 75px;
+    border-right: 2px solid white;
+}
+
+.social-media table td:last-child {
+    border-right: none;
+}
+
+footer {
+    background-color: black;
+    height: auto;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+}
+
+.orange-color {
+    color: orange;
+}
